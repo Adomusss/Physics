@@ -26,5 +26,11 @@ jobs:
 
       - name: Copy Artifacts
         run: copy ./Build/PhysicsGame/Release/win32/PhysicsGame.exe ./artifact
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          path: ./artifact
+          name: Physics-artifact
         
      
