@@ -20,3 +20,8 @@ jobs:
 
       - name: Build Solution
         run: msbuild .\PhysicsGame.sln /p:Configuration=Release
+
+      - name: Create Artifact Directory
+        run: mdkir artifact\PhysicsGame
+        
+     
