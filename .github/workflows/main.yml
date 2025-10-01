@@ -25,6 +25,6 @@ jobs:
         run: mkdir artifact
 
       - name: Copy Artifacts
-        run: copy./Build/PhysicsGame/Release/win32/PhysicsGame.exe ./artifact
+        run: copy ./Build/PhysicsGame/Release/win32/PhysicsGame.exe ./artifact
         
      
